@@ -1,15 +1,6 @@
-@mixin couleurHeaderFooter(){
-    background: rgb(33, 40, 58);
-    color: white;
-}
 
-@mixin flexColumn(){
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
-@mixin btn(){
+@mixin btn{
     border-radius: 5px;
     color: white;
 }

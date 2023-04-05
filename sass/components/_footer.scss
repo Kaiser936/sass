@@ -1,7 +1,8 @@
 // ----- Footer -----
 
 footer {
-    @include couleurHeaderFooter();
+    background: rgb(33, 40, 58);
+    color: white;
     text-align: center;
     padding: 50px;
 }
