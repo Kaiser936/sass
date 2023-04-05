@@ -42,14 +42,11 @@ header {
             align-items: center;
             padding-right: 30px;
             text-decoration: none;
-            
             & a {
                 margin-right: 10px;
                 text-decoration: none;
                 color: whitesmoke;
             }
-
-
         }
     }
     
@@ -71,7 +68,6 @@ header {
             padding: 7px;
             text-decoration: none;
         }
-
         .lien2 {
             @include btn();
             border:  1px solid rgb(255, 255, 255);

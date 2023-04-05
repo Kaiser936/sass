@@ -1,9 +1,20 @@
 // ----- Main -----
+@mixin zoneGrise {
+    background-color: rgb(241, 241, 241);
+    padding: 50px;
+    text-align: center;
+    border-top: 1px solid rgb(133, 133, 133);
+}
+
+@mixin miseEnPage {
+    padding: 50px;
+
+}
+
 main {
 
     .featured {
-        padding: 50px;
-
+        @include miseEnPage();
         section {
             padding-bottom: 60px;
             #icone {
@@ -29,11 +40,7 @@ main {
     }
 
     .zone_grise {
-        background-color: rgb(241, 241, 241);
-        padding: 50px;
-        text-align: center;
-        border-top: 1px solid rgb(133, 133, 133);
-
+        @include zoneGrise();
         .price{
             background: white;
             border: 1px solid rgb(133, 133, 133);
@@ -66,7 +73,7 @@ main {
     }
 
     .zoneFaq {
-        padding: 50px;
+        @include miseEnPage();
         text-align: center;
 
         .faqRep {
@@ -89,11 +96,7 @@ main {
     }
 
     .zone_grise2 {
-        background-color: rgb(241, 241, 241);
-        padding: 50px;
-        text-align: center;
-        border-top: 1px solid rgb(133, 133, 133);
-
+        @include zoneGrise();
         .env {
             color: rgb(51, 133, 255);
             font-size: 70px;
