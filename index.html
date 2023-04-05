@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Nesting</title>
+    <script src="https://kit.fontawesome.com/adc35cf513.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="home">
+        <div class="navBar">
+            <h1>Start Bootstrap</h1>
+            <img src="img/menu-burger.png" alt="menu-burger" class="burger">
+            <nav class="desktopNav"> 
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#services">Services</a>
+            </nav>
+        </div>
+        <div class="entete">
+            <h2>Present your business in a whole new way</h2>
+            <p class="presentation"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, cupiditate porro voluptas laboriosam aliquam nam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ea perspiciatis ab atque asperiores hic. </p>
+            <a href="#" class="lien1">Get started</a>
+            <a href="#" class="lien2">Learn More</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="featured" id="about">
+            <section>
+                <i class="fa-solid fa-calendar-days" id="icone"></i>
+                <h3>Featured title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus nam pariatur soluta tempora, suscipit dolores beatae adipisci est quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, commodi!
+                </p>
+                <a href="#">Call to action →</a>
+            </section>
+            <section>
+                <i class="fa-solid fa-building" id="icone"></i>
+                <h3>Featured title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus nam pariatur soluta tempora, suscipit dolores beatae adipisci est quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, commodi!
+                </p>
+                <a href="#">Call to action →</a>
+            </section>
+            <section>
+                <i class="fa-solid fa-toggle-off" id="icone"></i>
+                <h3>Featured title</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus nam pariatur soluta tempora, suscipit dolores beatae adipisci est quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, commodi!
+                </p>
+                <a href="#">Call to action →</a>
+            </section>
+        </div>
+
+        <div class="zone_grise" id="services">
+            <h3>Pay as you grow</h3>
+            <p>With our no hassle pricing plans</p>
+
+            <div class="price">
+                <h4>FREE</h4>
+                <p class="prix"><b>$0</b>/mo.</p>
+                <p class="plan">
+                    ✓ 1 users <br>
+                    ✓ 5GB storage <br>
+                    ✓ Unlimited public projects <br>
+                    ✓ Community access <br>
+                    ✗ Unlimited private projects <br>
+                    ✗ Dedicated support <br>
+                    ✗ Free linked domain <br>
+                    ✗ Monthly status reports <br>
+                </p>
+                <a href="#" class="liens"> Choose plan</a>
+            </div>
+
+
+            <div class="price">
+                <h4>PRO</h4>
+                <p class="prix"><b>$9</b>/mo.</p>
+                <p class="plan">
+                    ✓ <b>5 users</b> <br>
+                    ✓ 5GB storage <br>
+                    ✓ Unlimited public projects <br>
+                    ✓ Community access <br>
+                    ✓ Unlimited private projects <br>
+                    ✓ Dedicated support <br>
+                    ✓ Free linked domain <br>
+                    ✗ Monthly status reports <br>
+                </p>
+                <a href="#" class="liens"> Choose plan</a>
+            </div>
+
+
+            <div class="price">
+                <h4>ENTREPRISE</h4>
+                <p class="prix"><b>$49</b>/mo.</p>
+                <p class="plan">
+                    ✓ <b>Unlimited users </b><br>
+                    ✓ 5GB storage <br>
+                    ✓ Unlimited public projects <br>
+                    ✓ Community access <br>
+                    ✓ Unlimited private projects <br>
+                    ✓ Dedicated support <br>
+                    ✓ <b>Unlimited</b> linked domain <br>
+                    ✗ Monthly status reports <br>
+                </p>
+                <a href="#" class="liens"> Choose plan</a>
+            </div>
+        </div>
+
+        <div class="zoneFaq">
+            <h3>Customer testimonials</h3>
+            <p>Our customers love working with us</p>
+
+            <div class="faqRep">
+                <i class="fa-solid fa-comments msgIco"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nihil qui excepturi ducimus magni maxime natus odio! Architecto quaerat, earum, nemo libero tempora animi cum a at alias mollitia nesciunt nostrum, inventore numquam officiis velit vitae sapiente excepturi non iste. Est recusandae quae mollitia illo!
+                    <br>
+                    - Client Name, Location</p>
+            </div>
+            <div class="faqRep">
+                <i class="fa-solid fa-comments msgIco"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nihil qui excepturi ducimus magni maxime natus odio! Architecto quaerat, earum, nemo libero tempora animi cum a at alias mollitia nesciunt nostrum, inventore numquam officiis velit vitae sapiente excepturi non iste. Est recusandae quae mollitia illo!
+                <br>
+                - Client Name, Location</p>
+            </div>
+        </div>
+
+        <div class="zone_grise2" id="contact">
+            <i class="fa-solid fa-square-envelope env"></i>
+            <h3>Get in touch</h3>
+            <p>We'd love to hear from you</p>
+            <form action="get">
+            <input type="text" name="full_name" id="input" placeholder="Full name">
+            <input type="email" name="email" id="input" placeholder="Email address">
+            <input type="number" name="phone" id="input" placeholder="Phone number">
+            <textarea name="message" id="inputMsg" cols="30" rows="10" placeholder="Message"></textarea>
+            <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        Copyright © Your Website 2023
+    </footer>
+    
+</body>
+</html>
