@@ -1,0 +1,74 @@
+// ----- Responsive -----
+// ----- Desktop -----
+@media screen and (min-width: 1200px) {
+    // ----- header -----
+        header {
+            .navBar {
+                .burger {
+                    display:none;
+                }
+                .desktopNav {
+                    display: flex;
+                }
+            }
+            .entete{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 300px;
+                margin: auto;
+                margin-top: 10px;
+    
+                .presentation{
+                    font-size: 14px;
+                }
+    
+                .lien1 {
+                    margin-left: 40px;
+                    margin-top: 10px;
+                }
+    
+                .lien2 {
+                    margin-left: 30px;
+                    margin-top: 10px;
+                }
+            }
+        }    
+    
+    // ----- main -----
+        main {
+            .featured {
+                display: flex;
+            }
+    
+            .zone_grise {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+    
+                h3 {
+                    width: 100%;
+                }
+                p {
+                    width: 100%;
+                }
+                .price{
+                    width: 300px;
+                    margin-left: 50px;
+                    justify-content: center;
+                }
+            }
+    
+            .zoneFaq {
+                width: 500px;
+                margin: auto;
+            }
+    
+            .zone_grise2 {
+                form{
+                    width: 300px;
+                    margin: auto;
+                }
+            }
+        }
+    }
