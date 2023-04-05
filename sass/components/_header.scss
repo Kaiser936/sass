@@ -1,13 +1,10 @@
 // ----- Header -----
 header {
-    background: rgb(33, 40, 58);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include couleurHeaderFooter();
+    @include flexColumn ();
+
     .navBar{
         width: 100%;
-        background: rgb(33, 40, 58);
         position: fixed;
         display: flex;
         flex-direction: row;
@@ -38,10 +35,6 @@ header {
     }
     
     .entete{
-        display: flex;
-        flex-direction: column;
-        background: rgb(33, 40, 58);
-        color: white;
         text-align: center;
         padding: 50px;
         margin-top: 30px;
@@ -53,9 +46,9 @@ header {
             color: grey;
         }
         .lien1 {
-            border-radius: 5px;
+            
             background: rgb(51, 133, 255);
-            color: white;
+
             padding: 7px;
             text-decoration: none;
         }
